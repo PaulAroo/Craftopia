@@ -5,12 +5,13 @@ module.exports = {
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
+    "./layouts/**/*.{ts,tsx}",
+    "./features/**/*.{ts,tsx}",
   ],
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "8.44rem",
       screens: {
         "2xl": "1400px",
       },
