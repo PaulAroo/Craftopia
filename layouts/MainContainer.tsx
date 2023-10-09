@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer"
+
 export default function MainContainer({
   children,
 }: {
@@ -7,7 +9,7 @@ export default function MainContainer({
     <>
       <header>Header</header>
       <main>{children}</main>
-      <footer>footer</footer>
+      <Footer />
     </>
   )
 }
