@@ -1,7 +1,9 @@
+import { Button } from "@/components/ui/button"
+
 export default function Home() {
   return (
-    <main>
-      <h1>Craftopia</h1>
-    </main>
+    <>
+      <Button>craftopia</Button>
+    </>
   )
 }
