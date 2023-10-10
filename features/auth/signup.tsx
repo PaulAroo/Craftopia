@@ -13,7 +13,7 @@ export const SignupFeat = () => {
         Create an account
         </h1>
         <p>
-        Enter your details below 
+        Enter your details below
         </p>
      <form>
       <input placeholder="Name" />
