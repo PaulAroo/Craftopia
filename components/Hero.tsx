@@ -16,8 +16,8 @@ function Hero() {
 
   return (
     <>
-      <section className="container md:flex lg:h-[21.5rem] items-center md:mb-[8.75rem] mt-10">
-        <div className="inline-flex flex-col items-start gap-4 h-[21.5rem] md:w-[13.6rem]">
+      <section className="container  md:flex lg:h-[21.5rem] items-center md:mb-[8.75rem] mt-10">
+        <div className="inline-flex px-4 flex-col items-start gap-4 h-[21.5rem] md:w-[13.6rem]">
           {CATEGORIES.map((category) => (
             <Link key={category.title} href={category.link}>
               <p>{category.title}</p>
