@@ -1,9 +1,10 @@
 import React from 'react'
+import Image from 'next/image'
 
 export const SigninFeat = () => {
   return (
     <div>
-      <h1>signin</h1>
+      <div></div>
     </div>
   )
 }
