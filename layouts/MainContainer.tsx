@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer"
-import Hero from "@/components/Hero"
+import Header from "@/components/Header"
 
 export default function MainContainer({
   children,
@@ -8,11 +8,8 @@ export default function MainContainer({
 }) {
   return (
     <>
-      <header>Header</header>
-      <main>
-        {children}
-        <Hero />
-      </main>
+      <Header />
+      <main>{children}</main>
       <Footer />
     </>
   )
