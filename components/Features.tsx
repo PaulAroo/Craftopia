@@ -6,7 +6,7 @@ export default function Features() {
   return (
     <section className="my-[8.75rem]">
       <Container>
-        <div className="flex gap-[5.5rem] justify-center">
+        <div className="flex flex-col md:flex-row items-center gap-[5.5rem] justify-center">
           {FEATURES.map((f) => (
             <div key={f.heading} className="flex flex-col items-center w-fit">
               <div className="p-3 bg-[#c1c1c1] w-fit rounded-full mb-[1.5rem]">
@@ -19,10 +19,10 @@ export default function Features() {
                   />
                 </div>
               </div>
-              <h2 className="uppercase text-[1.25rem] font-semibold">
+              <h2 className="uppercase text-[1.25rem] font-semibold text-center">
                 {f.heading}
               </h2>
-              <p>{f.description}</p>
+              <p className="text-center">{f.description}</p>
             </div>
           ))}
         </div>
