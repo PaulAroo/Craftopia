@@ -4,7 +4,7 @@ import { getServerSession } from "next-auth"
 
 import "./globals.css"
 import MainContainer from "@/layouts/MainContainer"
-import SessionProvider from "@/components/SessionProvider"
+import Providers from "@/lib/Providers"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -23,9 +23,9 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <SessionProvider session={session}>
+        <Providers session={session}>
           <MainContainer>{children}</MainContainer>
-        </SessionProvider>
+        </Providers>
       </body>
     </html>
   )
