@@ -9,10 +9,19 @@ module.exports = {
     "./features/**/*.{ts,tsx}",
   ],
   theme: {
+    screens: {
+      sm: "576px",
+      md: "960px",
+      lg: "1440px",
+    },
     container: {
       center: true,
+      padding: {
+        DEFAULT: "1rem",
+        lg: "8.44rem",
+      },
       screens: {
-        "2xl": "1400px",
+        lg: "1400px",
       },
     },
     extend: {
